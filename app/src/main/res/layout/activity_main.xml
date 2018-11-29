@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wangzhen.admin.testservice.MainActivity">
+
+    <Button
+        android:id="@+id/startService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="StartService"/>
+
+    <Button
+        android:id="@+id/bindService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BindService"
+        android:layout_below="@id/startService"/>
+
+    <Button
+        android:id="@+id/stopService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="StopService"
+        android:layout_below="@id/bindService"/>
+
+    <Button
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAME"
+        android:layout_below="@id/stopService"/>
+    <Button
+        android:id="@+id/unBind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UNBIND"
+        android:layout_below="@id/name"/>
+
+    <Button
+        android:id="@+id/BIND_MESSENGER"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BIND_MESSENGER"
+        android:layout_below="@id/unBind"/>
+
+
+</RelativeLayout>
